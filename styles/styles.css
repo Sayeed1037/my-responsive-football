@@ -1,0 +1,166 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Common styles and utilitys */
+body{
+    font-family: Poppins;
+}
+
+header{
+    background-color: blue;
+    width: 100%;
+    height: 380px;
+}
+
+.menu-bar{
+    padding: 10px;
+    width: 80%;
+    height: 20px;
+    font-size: 16px;
+    
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.menu-item:hover{
+    border: 2px solid lightseagreen;
+}
+.child-1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.child-2{
+    color: #FFFFFF;  
+    background-color: #f35670;  
+}
+.child-2 span{
+    margin-right: 5px;
+}
+.head-container{
+    /* margin-left: 20%; */
+    margin-left: 56px;
+    margin-top: 5%;
+}
+.champion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;    
+    color: #FFFFFF;
+    margin-top: 2%;
+    width: 100%;
+}
+.champion span{
+    line-height: 1.2;
+}
+ button{
+    background-color: #f35670;
+    border: 0px;
+}
+.champion span button:hover{
+    border: 2px solid lightgreen;
+ 
+}
+.head-detail{
+    font-size: 40px;
+    font-weight: 700;
+}
+.champion img{
+    width: 50%;
+}
+/* main style start */
+.container{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.player{
+    width: 300px;
+    height: 450px;
+    background-color: linen;
+    border: 10px solid rgb(230, 227, 227);
+    box-shadow: 5px;
+}
+.player span img{
+    width: 300px;
+    height: 256px;
+}
+
+/* Style for highlights */
+.highlights{
+    margin-top: 100px;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+.highlight span h2{
+    font-size: 25px;
+}
+
+.highlight span img{
+    width: 380px;
+    height: 300px;
+}
+.live-section{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px lightslategrey;
+    text-align: center;
+    /* color: lightsteelblue */
+    background-image:linear-gradient(lightskyblue, lightpink );
+}
+.add-section{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px lightskyblue;
+    text-align: center;
+    /* color: lightsteelblue */
+    background-image:linear-gradient(lightseagreen, lightsteelblue );
+}
+/* style for footer */
+.footer-container{
+    width: 500;
+    margin-top: 100px;
+}
+.footer-resource{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-resource div img{
+    width: 483.87px;
+    margin-bottom: 0px;
+    /* height: 110px; */
+}
+.footer-2{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+}
+.footer-2 .fab{
+    margin-right: 10px;
+}
+.footer-3{
+    font-size: 18px;
+    margin-top: 10px;
+}
