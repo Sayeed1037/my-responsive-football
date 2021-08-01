@@ -61,9 +61,13 @@ header{
  button{
     background-color: #f35670;
     border: 0px;
+    transition: 3s;
 }
 .champion span button:hover{
     border: 2px solid lightgreen;
+    /* width: 300px; */
+    background-color: yellowgreen;
+    transform: rotate(360deg);
  
 }
 .head-detail{
@@ -164,3 +168,31 @@ header{
     font-size: 18px;
     margin-top: 10px;
 }
+    /*------------------
+    Media Queries
+     -------------------*/
+
+     /*------------------
+     Mobile Devices
+     -------------------*/
+     @media only screen and (max-width:688px){
+        .head-container{
+            width: 100%;
+        }
+         .players, .highlight{
+            /* background-color: red; */
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    }
+
+    /* Tablet Devices */
+    @media only screen and (min-width: 688px) and (max-width: 992px){
+        .head-container{
+            width: 100%;
+        }
+        .players, .highlight{
+           grid-template-columns: repeat(2, 1fr);
+       }
+       
+    }
